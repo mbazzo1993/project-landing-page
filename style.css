@@ -241,5 +241,16 @@ ul {
 }
 
 #footer {
-    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+#copyright {
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
