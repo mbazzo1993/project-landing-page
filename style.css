@@ -118,6 +118,51 @@ ul {
     text-align: center;
 }
 
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+#section-1-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#random-content-list {
+    display: flex;
+    justify-content: center;
+}
+
+.rand-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rand-box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.rand-text {
+    width: 85%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(105, 112, 122);
+}
+
 #footer {
     align-self: flex-end;
 }
